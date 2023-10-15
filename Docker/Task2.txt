@@ -1,0 +1,4 @@
+Task2: On Application Server 3 create a container named nginx_3 using image nginx with alpine tag and make sure container is in running state.
+	ssh banner@172.16.238.12
+	docker run -d --name nginx_3 -p 80:80 nginx:alpine
+	docker ps
